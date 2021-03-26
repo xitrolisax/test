@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <title>4 Moms</title>
+</head>
+<body>
+    <div class="announcement-bar">
+        Free Shipping On Orders Over $49
+    </div>
+   
+    <div class="navbar" id="navbar">
+    </div>
+<script src="navbar.js"></script>
+<div class="dropdownwrapper">
+    <div id="dropdown-content" class="dropdown-content">
+        <a href="#">United States</a>
+        <a href="#">Canada</a>
+        <a href="#">United Kingdom</a>
+        <a href="#">United States</a>
+        <a href="#">Canada</a>
+        <a href="#">United Kingdom</a>
+    </div>
+</div>
+    <div class="slide" id="slide">
+    </div>
+    <script src="slide.js"></script>
+</body>
+<script type="text/javascript">
+    function openSearch() {
+            document.getElementById("searchBar").style.display = "block";
+            document.getElementById("navbarPC").style.display = "none";
+        }
+
+        function closeSearch() {
+            document.getElementById("searchBar").style.display = "none";
+            document.getElementById("navbarPC").style.display = "block";
+        }
+    function openSideBar() {
+            document.getElementById("sidebar").style.width = "100%";
+        }
+
+        function closeSideBar() {
+            document.getElementById("sidebar").style.width = "0px";
+        }
+</script>
+</html>
